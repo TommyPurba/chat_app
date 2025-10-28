@@ -39,6 +39,7 @@ class App extends StatelessWidget {
             if(snapshot.hasData){
               return chatScreen();
             }
+            
 
             return AuthScreen();
            }
